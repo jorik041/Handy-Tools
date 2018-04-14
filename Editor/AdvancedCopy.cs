@@ -10,7 +10,7 @@ public class AdvancedCopy : EditorWindow {
 	private bool pasteWorldSpace = true;
 	private bool showLog = true;
 
-	[MenuItem("Window/Advanced Copy Window")]
+	[MenuItem("Window/Advanced Copy")]
 	public static void OpenWindow() {
 		AdvancedCopy window = (AdvancedCopy)EditorWindow.GetWindow(typeof(AdvancedCopy));
 		window.titleContent = new GUIContent ("Advanced Copy");
